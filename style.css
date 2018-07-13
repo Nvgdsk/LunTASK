@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: gainsboro;
+}
+.game{
+    margin: 20px;
+    background-color: white;
+    display: flex; 
+    position: relative;
+flex-flow: row wrap;
+flex-wrap: wrap;
+align-items:stretch;
+   
+    width: 408px;
+    height: 408px;
+}
+.cubs{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+    border: 1px solid black;
+}
+#reset{
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    color:white;
+    height: 60px;
+    border-radius: 20%;
+    font-size: 50px;
+    background-color: dimgray;
+    transition: color 2s;
+}
+#reset:hover{
+    background-color: #050505;
+}
